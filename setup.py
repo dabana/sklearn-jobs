@@ -12,11 +12,11 @@ with open(ver_file) as f:
     exec(f.read())
 
 DISTNAME = 'skljobs'
-DESCRIPTION = 'A template for scikit-learn compatible packages.'
+DESCRIPTION = 'A flexible custom framework for automating hyper-parameter optimization with Scikit-Learn Pipelines.'
 with codecs.open('README.rst', encoding='utf-8-sig') as f:
     LONG_DESCRIPTION = f.read()
-MAINTAINER = 'V. Birodkars, G. Lemaitre'
-MAINTAINER_EMAIL = 'vighneshbirodkar@nyu.edu, g.lemaitre58@gmail.com'
+MAINTAINER = 'D. Banville'
+MAINTAINER_EMAIL = 'david.banville2712@gmail.com'
 URL = 'https://github.com/dabana/sklearn-jobs.git'
 LICENSE = 'new BSD'
 DOWNLOAD_URL = 'https://github.com/dabana/sklearn-jobs.git'
